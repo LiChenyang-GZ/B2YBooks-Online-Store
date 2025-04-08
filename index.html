@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+   <form method="get" action="">
+      <div id="searchBox">
+         <span id="filter">
+            <input type="text" name="search" id="searchInput"/>
+            <button type="button" id="searchButton">search</button>
+            <select name="category" id="category">
+               <option value="" selected hidden>Category</option>
+               <option value="Art">Art</option>
+               <option value="Science History">Science History</option>
+               <option value="Action and Adventure">Action and Adventure</option>
+               <option value="Health">Health</option>
+               <option value="Science Fiction">Science Fiction</option>
+               <option value="All">All</option>
+            </select>
+            <button type="button" id="filterButton">Filter</button>
+         </span>
+         
+         <span id="dark_mode">Dark Mode
+            <input type="checkbox" value="dark" id="darkMode" />
+         </span>
+         
+         <span id="cart">
+            <input type="button" value="Add to cart" id="addBooks" />
+            <input type="button" value="Reset the cart" id="resetBooks"/>
+            <img src="./images/shopping_cart.png" height="26" width="26"/>
+            <span>(</span>
+            <span id="cartQuantity">0</span>
+            <span>)</span>
+         </span>
+      </div>
+      <div id="listBox">
+         <table>
+            <thead>
+               <th></th>
+               <th></th>
+               <th>Title</th>
+               <th>Rate</th>
+               <th>Authors</th>
+               <th>Year</th>
+               <th>Price</th>
+               <th>Publisher</th>
+               <th>Category</th>
+            </thead>
+            <tbody id="bookTable"></tbody>
+            
+         </table>
+
+      </div>   
+   </form>
+</body>
+</html>
