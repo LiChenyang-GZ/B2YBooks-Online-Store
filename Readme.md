@@ -3,6 +3,9 @@
 ## Project Title
 B2YBooks Online Store - Client-side Implementation
 
+![图片](https://github.com/user-attachments/assets/d0dd8cba-2430-4ea3-bdef-8e287058a2cb)
+
+
 ## Description
 This project is a client-side web application for B2YBooks, an online bookstore. The application allows users to browse books, search and filter book listings, add items to a shopping cart, and toggle between light/dark modes. The implementation uses core web technologies (HTML, CSS, and JavaScript) without any third-party frameworks or libraries.
 
